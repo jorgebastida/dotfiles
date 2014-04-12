@@ -35,4 +35,12 @@ alias ll='ls -hl'
 # sublimetext3
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n'
 
+# Pipe my public key to my clipboard.
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+# Git auto-completion
 source ~/.git-completion.bash
+
+# Add bin to PATH
+export PATH=$PATH:$PWD/bin
+
