@@ -1,0 +1,7 @@
+#!/bin/bash
+# This hook is run after every virtualenv is activated.
+PROJECTNAME=$(basename $VIRTUAL_ENV)
+PROJECTPATH=~/Projects/$PROJECTNAME
+if [ -d $PROJECTPATH ]; then
+cd $PROJECTPATH
+fi
