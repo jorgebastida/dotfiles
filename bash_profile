@@ -8,6 +8,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # gcc
 #export ARCHFLAGS="-arch i386 -arch x86_64"
+export CC=gcc
+export CXX=g++
+export FFLAGS=ff2c
 
 ##########
 # colors
