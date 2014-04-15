@@ -11,6 +11,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 export CC=gcc
 export CXX=g++
 export FFLAGS=ff2c
+export ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future
 
 ##########
 # colors
