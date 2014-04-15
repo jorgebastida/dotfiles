@@ -47,3 +47,6 @@ source ~/.git-completion.bash
 # Add bin to PATH
 export PATH=$PATH:$PWD/bin
 
+# python time
+alias python='time python'
+[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
