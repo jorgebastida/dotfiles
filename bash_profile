@@ -42,6 +42,9 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n'
 # Pipe my public key to my clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
+# Flush DNS cache
+alias flushcache='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
+
 # Git auto-completion
 source ~/.git-completion.bash
 
@@ -51,3 +54,6 @@ export PATH=$PATH:$PWD/bin
 # python time
 alias python='time python'
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
